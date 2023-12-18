@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
+* {
+  font-family: Poppins, sans-serif;
+}
+.arabic {
+  font-family: Amiri, serif;
+}
+#stats-bg-ornament-1,
+#stats-bg-ornament-2 {
+  width: 550px;
+  height: 550px;
+  background-image: radial-gradient(#ffffff55 0%, #ffffff00 70%);
+}
+#carousel-review {
+  scroll-behavior: smooth;
+}
