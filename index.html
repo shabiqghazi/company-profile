@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="/dist/output.css" />
     <link rel="stylesheet" href="/dist/style.css" />
     <link
+      href="
+        https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css
+        "
       rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
     />
   </head>
   <body>
@@ -27,7 +25,7 @@
           <button id="nav-open" class="lg:hidden">
             <i class="fi fi-sr-menu-burger text-xl flex items-center"></i>
           </button>
-          <h1 class="font-black text-xl" id="nav-brand">Imran Travel</h1>
+          <h1 class="font-black text-xl" id="nav-brand">Sabiq Travel</h1>
         </div>
         <div
           class="transition-all flex gap-9 lg:static absolute lg:bg-transparent bg-green-50 w-screen lg:w-fit h-screen lg:h-fit top-0 text-darker lg:text-white flex-col lg:flex-row wrapper lg:p-0"
@@ -39,11 +37,9 @@
               <i class="fi fi-sr-cross text-lg flex items-center"></i>
             </button>
           </div>
-          <a href="#">Beranda</a>
-          <a href="#">Artikel</a>
-          <a href="#">Galeri</a>
-          <a href="#">Tentang</a>
-          <a href="#">Sertifikasi</a>
+          <a href="/" class="menu-item">Beranda</a>
+          <a href="#" class="menu-item">Tentang</a>
+          <a href="#" class="menu-item">Galeri</a>
         </div>
         <button class="bg-light px-6 py-2 rounded-full text-dark">
           Hubungi Kami
@@ -62,7 +58,7 @@
           <button
             class="bg-light py-2.5 px-8 rounded-full text-dark items-center flex justify-center w-fit"
           >
-            Hubungi Kami
+            Konsultasi
           </button>
           <button
             class="border-2 border-light py-2.5 px-8 rounded-full text-light items-center flex justify-center w-fit gap-2"
@@ -134,7 +130,7 @@
           </div>
           <div class="px-8 flex flex-col gap-4 items-center text-center">
             <p class="font-black">
-              <span class="text-7xl">11872</span>
+              <span class="text-7xl">11.872</span>
             </p>
             <p class="leading-loose">Jumlah orang diberangkatkan umrah</p>
           </div>
@@ -165,7 +161,7 @@
       class="wrapper py-32 text-white flex flex-col items-center bg-dark gap-16"
     >
       <h2 class="text-4xl font-bold text-center">Apa Kata Mereka?</h2>
-      <div class="relative w-full max-w-lg">
+      <div class="relative w-full max-w-xl">
         <div
           class="flex w-full gap-8 overflow-hidden rounded-3xl"
           id="carousel-review"
@@ -198,12 +194,12 @@
               />
               <p class="grow font-semibold">Shabiq Ghazi Arkaan</p>
             </div>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              quia corrupti harum id saepe sint eos vero ullam aspernatur
-              eveniet aut error deserunt praesentium, esse voluptatibus,
-              dignissimos iste dolor dolorum unde rem?
-            </div>
+            <p class="italic leading-loose">
+              Saya dan keluarga mengambil paket Umroh Plus Turki dari Shabiq
+              Travel. Pelayanannya jelas sejak awal, itinerary tidak meleset,
+              dan pembimbingnya komunikatif. Kami merasa aman dan terbantu
+              selama di Tanah Suci. InsyaAllah ingin pakai jasanya lagi.
+            </p>
           </div>
           <div
             class="bg-white min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-4"
@@ -216,12 +212,12 @@
               />
               <p class="grow font-semibold">Shabiq Ghazi Arkaan</p>
             </div>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              quia corrupti harum id saepe sint eos vero ullam aspernatur
-              eveniet aut error deserunt praesentium, esse voluptatibus,
-              dignissimos iste dolor dolorum unde rem?
-            </div>
+            <p class="italic leading-loose">
+              Proses keberangkatan cukup lancar. Hotel di Madinah sangat dekat
+              dengan Masjid Nabawi, jadi nyaman untuk jamaah lansia. Hanya saja
+              briefing sebelum keberangkatan bisa dibuat sedikit lebih detail.
+              Selebihnya sangat memuaskan.
+            </p>
           </div>
           <div
             class="bg-white min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-4"
@@ -234,202 +230,68 @@
               />
               <p class="grow font-semibold">Shabiq Ghazi Arkaan</p>
             </div>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              quia corrupti harum id saepe sint eos vero ullam aspernatur
-              eveniet aut error deserunt praesentium, esse voluptatibus,
-              dignissimos iste dolor dolorum unde rem?
-            </div>
-          </div>
-          <div
-            class="bg-white min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-wrap flex-col gap-4"
-          >
-            <div class="flex gap-7 items-center">
-              <img
-                src="https://www.mecgale.com/wp-content/uploads/2017/08/dummy-profile.png"
-                alt="image"
-                class="w-16 aspect-square rounded-full"
-              />
-              <p class="grow font-semibold">Shabiq Ghazi Arkaan</p>
-            </div>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              quia corrupti harum id saepe sint eos vero ullam aspernatur
-              eveniet aut error deserunt praesentium, esse voluptatibus,
-              dignissimos iste dolor dolorum unde rem?
-            </div>
+            <p class="italic leading-loose">
+              Shabiq Travel mengurus semua dokumen dengan cepat. Mutawwif-nya
+              informatif dan sabar menghadapi rombongan yang beragam. Jadwal
+              ibadah tersusun rapi, dan rombongan bisa fokus menjalankan ibadah.
+              Pengalaman yang sangat berkesan.
+            </p>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="wrapper py-32 text-dark flex flex-col items-center bg-green-50 gap-16"
+      class="wrapper py-32 text-dark flex flex-col items-center bg-green-50 gap-32"
     >
-      <h2 class="text-4xl font-bold text-center">Artikel</h2>
-      <div
-        class="grid lg:grid-cols-4 md:grid-cols-2 lg:grid-rows-2 md:[&>*:nth-child(1)]:col-span-2 lg:[&>*:nth-child(1)]:row-span-2 gap-3 w-full"
-      >
-        <div
-          class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
-        >
-          <img
-            src="assets\img\article-image.jpg"
-            class="w-full aspect-video"
-            alt=""
-          />
-          <div class="flex flex-col justify-between h-full p-4 gap-5">
-            <div class="grow flex flex-col gap-2">
-              <h3 class="line-clamp-1 font-bold text-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere eius fugiat vitae accusamus molestias, voluptatibus
-                delectus? Architecto, libero molestiae!
-              </h3>
-              <p class="line-clamp-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                harum, repellat nesciunt similique veritatis accusamus quibusdam
-                eum id molestias autem quae ad aliquam quod cumque beatae
-                facilis aperiam exercitationem voluptate saepe ut laborum
-                possimus! Reprehenderit amet sapiente, vel, nihil provident illo
-                nostrum rerum placeat ea, praesentium corrupti tenetur?
-                Adipisci, recusandae!
-              </p>
-            </div>
-            <a href="#" class="font-semibold text-primary">Baca selengkapnya</a>
-          </div>
+      <h2 class="text-4xl font-bold text-center">Berangkat Bersama Kami!</h2>
+      <div class="grid grid-cols-3 w-full text-center px-32">
+        <div class="flex flex-col items-center justify-center gap-8">
+          <i class="fi fi-brands-whatsapp text-7xl"></i>
+          <p>+62 8123 4567 8910</p>
         </div>
-        <div
-          class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
-        >
-          <img
-            src="assets\img\article-image.jpg"
-            class="w-full aspect-video"
-            alt=""
-          />
-          <div class="flex flex-col justify-between h-full p-4 gap-5">
-            <div class="grow flex flex-col gap-2">
-              <h3 class="line-clamp-1 font-bold text-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere eius fugiat vitae accusamus molestias, voluptatibus
-                delectus? Architecto, libero molestiae!
-              </h3>
-              <p class="line-clamp-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                harum, repellat nesciunt similique veritatis accusamus quibusdam
-                eum id molestias autem quae ad aliquam quod cumque beatae
-                facilis aperiam exercitationem voluptate saepe ut laborum
-                possimus! Reprehenderit amet sapiente, vel, nihil provident illo
-                nostrum rerum placeat ea, praesentium corrupti tenetur?
-                Adipisci, recusandae!
-              </p>
-            </div>
-            <a href="#" class="font-semibold text-primary">Baca selengkapnya</a>
-          </div>
+        <div class="flex flex-col items-center justify-center gap-8">
+          <i class="fi fi-brands-instagram text-7xl"></i>
+          <p>@sabiq.travel</p>
         </div>
-        <div
-          class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
-        >
-          <img
-            src="assets\img\article-image.jpg"
-            class="w-full aspect-video"
-            alt=""
-          />
-          <div class="flex flex-col justify-between h-full p-4 gap-5">
-            <div class="grow flex flex-col gap-2">
-              <h3 class="line-clamp-1 font-bold text-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere eius fugiat vitae accusamus molestias, voluptatibus
-                delectus? Architecto, libero molestiae!
-              </h3>
-              <p class="line-clamp-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                harum, repellat nesciunt similique veritatis accusamus quibusdam
-                eum id molestias autem quae ad aliquam quod cumque beatae
-                facilis aperiam exercitationem voluptate saepe ut laborum
-                possimus! Reprehenderit amet sapiente, vel, nihil provident illo
-                nostrum rerum placeat ea, praesentium corrupti tenetur?
-                Adipisci, recusandae!
-              </p>
-            </div>
-            <a href="#" class="font-semibold text-primary">Baca selengkapnya</a>
-          </div>
-        </div>
-        <div
-          class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
-        >
-          <img
-            src="assets\img\article-image.jpg"
-            class="w-full aspect-video"
-            alt=""
-          />
-          <div class="flex flex-col justify-between h-full p-4 gap-5">
-            <div class="grow flex flex-col gap-2">
-              <h3 class="line-clamp-1 font-bold text-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere eius fugiat vitae accusamus molestias, voluptatibus
-                delectus? Architecto, libero molestiae!
-              </h3>
-              <p class="line-clamp-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                harum, repellat nesciunt similique veritatis accusamus quibusdam
-                eum id molestias autem quae ad aliquam quod cumque beatae
-                facilis aperiam exercitationem voluptate saepe ut laborum
-                possimus! Reprehenderit amet sapiente, vel, nihil provident illo
-                nostrum rerum placeat ea, praesentium corrupti tenetur?
-                Adipisci, recusandae!
-              </p>
-            </div>
-            <a href="#" class="font-semibold text-primary">Baca selengkapnya</a>
-          </div>
-        </div>
-        <div
-          class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
-        >
-          <img
-            src="assets\img\article-image.jpg"
-            class="w-full aspect-video"
-            alt=""
-          />
-          <div class="flex flex-col justify-between h-full p-4 gap-5">
-            <div class="grow flex flex-col gap-2">
-              <h3 class="line-clamp-1 font-bold text-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere eius fugiat vitae accusamus molestias, voluptatibus
-                delectus? Architecto, libero molestiae!
-              </h3>
-              <p class="line-clamp-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                harum, repellat nesciunt similique veritatis accusamus quibusdam
-                eum id molestias autem quae ad aliquam quod cumque beatae
-                facilis aperiam exercitationem voluptate saepe ut laborum
-                possimus! Reprehenderit amet sapiente, vel, nihil provident illo
-                nostrum rerum placeat ea, praesentium corrupti tenetur?
-                Adipisci, recusandae!
-              </p>
-            </div>
-            <a href="#" class="font-semibold text-primary">Baca selengkapnya</a>
-          </div>
+        <div class="flex flex-col items-center justify-center gap-8">
+          <i class="fi fi-sr-marker text-7xl"></i>
+          <p>Rajapolah, Kab. Tasikmalaya,<br />Jawa Barat</p>
         </div>
       </div>
+      <div class="flex flex-col gap-8 w-full">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8875.455562137828!2d108.18686599236676!3d-7.225334888042093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4e33544f7963%3A0xc9f2aa35ac49d85d!2sMesjid%20Agung%20Rajapolah!5e0!3m2!1sen!2sid!4v1764218895515!5m2!1sen!2sid"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <a
+          href="https://maps.app.goo.gl/efbSSadzKcSDJmQ5A"
+          class="bg-primary px-6 py-4 rounded-full text-white text-center"
+          target="_blank"
+        >
+          Buka di Google Maps
+        </a>
+      </div>
     </div>
-    <footer class="wrapper flex flex-col bg-darker text-white">
-      <div class="py-32 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12">
-        <div class="flex flex-col gap-5 py-5 md:col-span-2">
-          <h2 class="text-2xl font-bold">Imran Travel</h2>
+    <footer class="wrapper flex flex-col bg-darker text-white leading-loose">
+      <div class="py-16 grid lg:grid-cols-3 grid-cols-1 gap-12">
+        <div class="flex flex-col gap-5 py-5">
+          <h2 class="text-2xl font-bold">Sabiq Travel</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            obcaecati non iste vitae numquam error, ipsa quae tempora sequi cum
-            voluptatem et, delectus vero, debitis ab architecto at assumenda
-            molestias.
+            "Kesejatian Hidup, <br />
+            Berkah di Setiap Jejak Haji dan Umrah."
           </p>
         </div>
         <div class="flex flex-col gap-5 py-5">
           <h2 class="text-2xl font-bold">Tautan</h2>
           <div class="flex flex-col gap-2">
             <a href="#">Beranda</a>
-            <a href="#">Artikel</a>
-            <a href="#">Galeri</a>
             <a href="#">Tentang</a>
-            <a href="#">Hubungi Kami</a>
+            <a href="#">Galeri</a>
           </div>
         </div>
         <div class="flex flex-col gap-5 py-5">
@@ -437,25 +299,24 @@
           <div class="flex flex-col gap-2">
             <p class="gap-2 flex">
               <i class="fi fi-sr-envelope flex items-center"></i
-              ><span>noorabika@gmail.com</span>
+              ><span>admin@shabiq.travel</span>
             </p>
             <p class="gap-2 flex">
               <i class="fi fi-sr-phone-flip flex items-center"></i
-              ><span>+62 851 3829 7382</span>
+              ><span>+62 8123 4567 8910 </span>
             </p>
             <p class="gap-2 flex items-start">
-              <i class="fi fi-sr-marker flex items-center"></i
-              ><span>
-                Ruko Graha Panyileukan Asri No.18-19, Jalan Soekarno Hatta
-                No.766, Cipadung Kidul, Panyileukan, Cipadung Kidul, Kec.
-                Panyileukan, Kota Bandung, Jawa Barat 40614</span
-              >
+              <i class="fi fi-sr-marker flex items-center"></i>
+              <span>
+                Jalan Raya Rajapolah No.123, Desa Rajapolah, Kec. Rajapolah, Kab
+                Tasikmalaya, Jawa Barat 46155
+              </span>
             </p>
           </div>
         </div>
       </div>
-      <div class="flex justify-center py-4">
-        Copyright &copy; Imran Travel 2024
+      <div class="flex justify-center py-4 border-t border-light">
+        Copyright &copy; Shabiq Travel 2025
       </div>
     </footer>
     <script src="./dist/carousel.js"></script>
