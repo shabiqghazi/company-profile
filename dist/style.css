@@ -15,3 +15,21 @@
 #carousel-review {
   scroll-behavior: smooth;
 }
+.menu-item {
+  --after-bg: #fff;
+  position: relative;
+}
+.menu-item::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: var(--after-bg);
+  transition-duration: 100ms;
+}
+.menu-item:hover::after {
+  width: 100%;
+}

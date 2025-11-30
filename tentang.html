@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link
+      href="
+        https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css
+        "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="bg-darker fixed w-72 text-center top-10 -left-20 z-50 text-white py-3 font-bold shadow-lg -rotate-45"
+    >
+      P R E V I E W
+    </div>
+    <div
+      class="h-[75vh] w-full flex items-center bg-center bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../assets/img/leading_background.jpg')] bg-cover"
+      id="featured"
+    >
+      <header
+        class="absolute top-0 w-full h-20 flex justify-between items-center text-white wrapper transition-all duration-500 z-20"
+      >
+        <div class="flex gap-3">
+          <button id="nav-open" class="lg:hidden">
+            <i class="fi fi-sr-menu-burger text-xl flex items-center"></i>
+          </button>
+          <h1 class="font-black text-xl" id="nav-brand">Sabiq Travel</h1>
+        </div>
+        <div
+          class="transition-all flex gap-9 lg:static absolute lg:bg-transparent bg-green-50 w-screen lg:w-fit h-screen lg:h-fit top-0 text-darker lg:text-white flex-col lg:flex-row wrapper lg:p-0"
+          style="right: 100%"
+          id="nav-collapse"
+        >
+          <div class="h-20 flex items-center lg:hidden">
+            <button id="nav-close">
+              <i class="fi fi-sr-cross text-lg flex items-center"></i>
+            </button>
+          </div>
+          <a href="/" class="menu-item">Beranda</a>
+          <a href="#" class="menu-item">Tentang</a>
+          <a href="#" class="menu-item">Galeri</a>
+        </div>
+        <button class="bg-light px-6 py-2 rounded-full text-dark">
+          Hubungi Kami
+        </button>
+      </header>
+      <div class="wrapper flex flex-col gap-5 w-full">
+        <h1
+          class="w-full text-4xl leading-loose text-white font-bold text-center md:text-left"
+        >
+          Tentang Kami
+        </h1>
+      </div>
+    </div>
+    <div class="wrapper py-32 text-dark flex flex-col bg-green-50 gap-16">
+      <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-12 items-center">
+        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
+          <h2 class="text-xl font-bold">Shabiq Travel</h2>
+          <p>
+            Shabiq Travel adalah penyedia layanan perjalanan Haji dan Umroh yang
+            fokus pada kenyamanan dan ketepatan layanan. Setiap program
+            dirancang dengan informasi yang jelas, pendampingan yang
+            terstruktur, dan koordinasi yang rapi dari awal hingga akhir
+            perjalanan.
+          </p>
+          <p>
+            Kami bekerja sama dengan mitra resmi di Arab Saudi dan tim
+            pembimbing berpengalaman untuk memastikan jamaah mendapatkan
+            fasilitas yang sesuai standar. Mulai dari pengurusan dokumen,
+            manasik, akomodasi, hingga pendampingan selama ibadah, seluruh
+            proses disiapkan agar jamaah dapat beribadah tanpa beban teknis.
+          </p>
+        </div>
+        <div
+          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+        >
+          <img src="./assets/img/logo-mockup.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="wrapper py-32">
+      <div
+        class="w-full grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-32 items-center"
+      >
+        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
+          <h2 class="text-xl font-bold">✅ Terpercaya</h2>
+          <p>
+            Shabiq Travel menjalankan layanan dengan izin resmi dari Kementerian
+            Agama, termasuk legalitas penyelenggaraan Umroh dan Haji Khusus.
+            Seluruh dokumen perizinan diperbarui secara berkala agar sesuai
+            dengan regulasi terbaru. Dengan dasar hukum yang jelas, calon jamaah
+            dapat memastikan bahwa seluruh kegiatan operasional bukan layanan
+            abal-abal atau tanpa pengawasan pemerintah.
+          </p>
+          <p>
+            Selain itu, setiap program keberangkatan dicatat dalam sistem
+            pelaporan resmi yang dapat diverifikasi. Informasi mengenai nomor
+            izin, status operasional, serta data administratif lainnya tersedia
+            melalui kanal komunikasi kami apabila diperlukan. Transparansi ini
+            disiapkan agar calon jamaah bisa mengecek sendiri keabsahan
+            penyelenggaraan sebelum mengambil keputusan.
+          </p>
+        </div>
+        <div
+          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+        >
+          <img
+            src="./assets/img/about-terpercaya.jpg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+        <div
+          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+        >
+          <img
+            src="./assets/img/about-rekam jejak.jpg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
+          <h2 class="text-xl font-bold">✈️ Rekam Jejak Keberangkatan</h2>
+          <p>
+            Selama beroperasi, Shabiq Travel terbiasa menjalankan keberangkatan
+            sesuai jadwal yang telah ditetapkan. Dokumentasi foto, video, dan
+            ringkasan perjalanan selalu disimpan sebagai bukti pelaksanaan
+            program. Rekam jejak ini membantu calon jamaah melihat bahwa layanan
+            kami benar-benar berjalan, bukan sekadar penawaran paket di brosur.
+          </p>
+          <p>
+            Selain dokumentasi, testimoni jamaah juga menjadi bagian dari
+            evaluasi rutin. Setiap masukan dipakai untuk meningkatkan kenyamanan
+            dan kualitas pelayanan pada keberangkatan berikutnya. Dengan rekam
+            jejak yang terbuka, calon jamaah bisa menilai performa layanan kami
+            secara objektif sebelum mendaftar.
+          </p>
+        </div>
+
+        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
+          <h2 class="text-xl font-bold">
+            🛡️ Proses Operasional yang Terpantau
+          </h2>
+          <p>
+            Setiap perjalanan dimulai dari alur pendaftaran yang jelas,
+            pengumpulan dokumen, manasik, dan persiapan teknis menjelang
+            keberangkatan. Calon jamaah tidak dibiarkan menebak-nebak proses,
+            karena setiap tahap dijelaskan secara rinci melalui materi informasi
+            dan pendampingan langsung. Tujuannya agar jamaah paham apa yang
+            sedang berlangsung dan apa yang perlu dipersiapkan.
+          </p>
+          <p>
+            Selama perjalanan, tim operasional terus memantau kondisi rombongan
+            dan memastikan koordinasi berjalan lancar. Komunikasi dilakukan
+            melalui grup resmi dan kontak pendamping sehingga jamaah atau
+            keluarga dapat mengetahui perkembangan perjalanan. Dengan alur yang
+            dapat dipantau, rasa aman dan keterbukaan informasi menjadi
+            prioritas utama.
+          </p>
+        </div>
+        <div
+          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+        >
+          <img
+            src="./assets/img/about-operasional.jpg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer class="wrapper flex flex-col bg-darker text-white leading-loose">
+      <div class="py-16 grid lg:grid-cols-3 grid-cols-1 gap-12">
+        <div class="flex flex-col gap-5 py-5">
+          <h2 class="text-2xl font-bold">Sabiq Travel</h2>
+          <p>
+            "Kesejatian Hidup, <br />
+            Berkah di Setiap Jejak Haji dan Umrah."
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 py-5">
+          <h2 class="text-2xl font-bold">Tautan</h2>
+          <div class="flex flex-col gap-2">
+            <a href="#">Beranda</a>
+            <a href="#">Tentang</a>
+            <a href="#">Galeri</a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-5 py-5">
+          <h2 class="text-2xl font-bold">Kontak Kami</h2>
+          <div class="flex flex-col gap-2">
+            <p class="gap-2 flex">
+              <i class="fi fi-sr-envelope flex items-center"></i
+              ><span>admin@shabiq.travel</span>
+            </p>
+            <p class="gap-2 flex">
+              <i class="fi fi-sr-phone-flip flex items-center"></i
+              ><span>+62 8123 4567 8910 </span>
+            </p>
+            <p class="gap-2 flex items-start">
+              <i class="fi fi-sr-marker flex items-center"></i>
+              <span>
+                Jalan Raya Rajapolah No.123, Desa Rajapolah, Kec. Rajapolah, Kab
+                Tasikmalaya, Jawa Barat 46155
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center py-4 border-t border-light">
+        Copyright &copy; Shabiq Travel 2025
+      </div>
+    </footer>
+    <script src="./dist/carousel.js"></script>
+    <script src="./dist/header.js"></script>
+  </body>
+</html>

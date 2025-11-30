@@ -19,6 +19,7 @@ window.addEventListener("scroll", () => {
     navBrand.style.color = "#fff";
     header.style.top = "-80px";
     menuItems.forEach((item) => {
+      item.style.setProperty("--after-bg", "#fff");
       item.style.color = "#fff";
     });
   } else {
@@ -30,6 +31,7 @@ window.addEventListener("scroll", () => {
     header.style.boxShadow = "1px 1px 10px -3px #00000033";
     navBrand.style.color = "#0E8388";
     menuItems.forEach((item) => {
+      item.style.setProperty("--after-bg", "#0E8388");
       item.style.color = "#0E8388";
     });
   }
