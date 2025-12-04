@@ -12,6 +12,10 @@
         "
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="/node_modules/photoswipe/dist/photoswipe.css"
+    />
   </head>
   <body>
     <div
@@ -54,127 +58,222 @@
         <h1
           class="w-full text-4xl leading-loose text-white font-bold text-center md:text-left"
         >
-          Tentang Kami
+          Galeri
         </h1>
       </div>
     </div>
-    <div class="wrapper py-32 text-dark flex flex-col bg-green-50 gap-16">
-      <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-12 items-center">
-        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
-          <h2 class="text-xl font-bold">Shabiq Travel</h2>
-          <p>
-            Shabiq Travel adalah penyedia layanan perjalanan Haji dan Umroh yang
-            fokus pada kenyamanan dan ketepatan layanan. Setiap program
-            dirancang dengan informasi yang jelas, pendampingan yang
-            terstruktur, dan koordinasi yang rapi dari awal hingga akhir
-            perjalanan.
-          </p>
-          <p>
-            Kami bekerja sama dengan mitra resmi di Arab Saudi dan tim
-            pembimbing berpengalaman untuk memastikan jamaah mendapatkan
-            fasilitas yang sesuai standar. Mulai dari pengurusan dokumen,
-            manasik, akomodasi, hingga pendampingan selama ibadah, seluruh
-            proses disiapkan agar jamaah dapat beribadah tanpa beban teknis.
-          </p>
-        </div>
-        <div
-          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+    <div
+      class="wrapper py-32 text-dark flex flex-col bg-green-50 gap-16"
+      id="my-gallery"
+    >
+      <h2 class="text-4xl font-bold text-center text-dark">
+        Perjalanan Kesuksesan Kami
+      </h2>
+      <div class="w-full grid md:grid-cols-4 grid-cols-2 gap-4 items-center">
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
         >
-          <img src="./assets/img/logo-mockup.jpeg" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="wrapper py-32" id="lightgallery">
-      <div
-        class="w-full grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-32 items-center"
-      >
-        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
-          <h2 class="text-xl font-bold">✅ Terpercaya</h2>
-          <p>
-            Shabiq Travel menjalankan layanan dengan izin resmi dari Kementerian
-            Agama, termasuk legalitas penyelenggaraan Umroh dan Haji Khusus.
-            Seluruh dokumen perizinan diperbarui secara berkala agar sesuai
-            dengan regulasi terbaru. Dengan dasar hukum yang jelas, calon jamaah
-            dapat memastikan bahwa seluruh kegiatan operasional bukan layanan
-            abal-abal atau tanpa pengawasan pemerintah.
-          </p>
-          <p>
-            Selain itu, setiap program keberangkatan dicatat dalam sistem
-            pelaporan resmi yang dapat diverifikasi. Informasi mengenai nomor
-            izin, status operasional, serta data administratif lainnya tersedia
-            melalui kanal komunikasi kami apabila diperlukan. Transparansi ini
-            disiapkan agar calon jamaah bisa mengecek sendiri keabsahan
-            penyelenggaraan sebelum mengambil keputusan.
-          </p>
-        </div>
-        <div
-          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
-        >
-          <a href="./assets/img/about-terpercaya.jpg" data-lg-size="1600-2400">
+          <a
+            href="./assets/img/gallery/1.jpg"
+            data-pswp-src="./assets/img/gallery/1.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
             <img
-              src="./assets/img/about-terpercaya.jpg"
+              src="./assets/img/gallery/1.jpg"
               alt=""
-              class="h-full w-full object-cover"
+              class="w-full h-full object-cover"
             />
           </a>
-        </div>
-        <div
-          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
         >
-          <img
-            src="./assets/img/about-rekam jejak.jpg"
-            alt=""
-            class="h-full w-full object-cover"
-          />
-        </div>
-        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
-          <h2 class="text-xl font-bold">✈️ Rekam Jejak Keberangkatan</h2>
-          <p>
-            Selama beroperasi, Shabiq Travel terbiasa menjalankan keberangkatan
-            sesuai jadwal yang telah ditetapkan. Dokumentasi foto, video, dan
-            ringkasan perjalanan selalu disimpan sebagai bukti pelaksanaan
-            program. Rekam jejak ini membantu calon jamaah melihat bahwa layanan
-            kami benar-benar berjalan, bukan sekadar penawaran paket di brosur.
-          </p>
-          <p>
-            Selain dokumentasi, testimoni jamaah juga menjadi bagian dari
-            evaluasi rutin. Setiap masukan dipakai untuk meningkatkan kenyamanan
-            dan kualitas pelayanan pada keberangkatan berikutnya. Dengan rekam
-            jejak yang terbuka, calon jamaah bisa menilai performa layanan kami
-            secara objektif sebelum mendaftar.
-          </p>
-        </div>
-
-        <div class="flex flex-col rounded-3xl gap-5 leading-loose">
-          <h2 class="text-xl font-bold">
-            🛡️ Proses Operasional yang Terpantau
-          </h2>
-          <p>
-            Setiap perjalanan dimulai dari alur pendaftaran yang jelas,
-            pengumpulan dokumen, manasik, dan persiapan teknis menjelang
-            keberangkatan. Calon jamaah tidak dibiarkan menebak-nebak proses,
-            karena setiap tahap dijelaskan secara rinci melalui materi informasi
-            dan pendampingan langsung. Tujuannya agar jamaah paham apa yang
-            sedang berlangsung dan apa yang perlu dipersiapkan.
-          </p>
-          <p>
-            Selama perjalanan, tim operasional terus memantau kondisi rombongan
-            dan memastikan koordinasi berjalan lancar. Komunikasi dilakukan
-            melalui grup resmi dan kontak pendamping sehingga jamaah atau
-            keluarga dapat mengetahui perkembangan perjalanan. Dengan alur yang
-            dapat dipantau, rasa aman dan keterbukaan informasi menjadi
-            prioritas utama.
-          </p>
-        </div>
-        <div
-          class="bg-white shadow-lg flex flex-col items-center rounded-3xl gap-3 aspect-video overflow-clip"
+          <a
+            href="./assets/img/gallery/2.jpg"
+            data-pswp-src="./assets/img/gallery/2.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/2.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
         >
-          <img
-            src="./assets/img/about-operasional.jpg"
-            alt=""
-            class="h-full w-full object-cover"
-          />
-        </div>
+          <a
+            href="./assets/img/gallery/3.jpg"
+            data-pswp-src="./assets/img/gallery/3.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/3.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/4.jpg"
+            data-pswp-src="./assets/img/gallery/4.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/4.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/5.jpg"
+            data-pswp-src="./assets/img/gallery/5.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/5.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/6.jpg"
+            data-pswp-src="./assets/img/gallery/6.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/6.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/7.jpg"
+            data-pswp-src="./assets/img/gallery/7.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/7.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/8.jpg"
+            data-pswp-src="./assets/img/gallery/8.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/8.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/9.jpg"
+            data-pswp-src="./assets/img/gallery/9.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/9.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/10.jpg"
+            data-pswp-src="./assets/img/gallery/10.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/10.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/11.jpg"
+            data-pswp-src="./assets/img/gallery/11.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/11.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
+        <figure
+          class="bg-white shadow-lg flex flex-col items-center rounded gap-3 aspect-video overflow-clip"
+        >
+          <a
+            href="./assets/img/gallery/12.jpg"
+            data-pswp-src="./assets/img/gallery/12.jpg"
+            data-cropped="true"
+            target="_blank"
+            class="w-full h-full"
+          >
+            <img
+              src="./assets/img/gallery/12.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </a>
+        </figure>
       </div>
     </div>
 
@@ -222,5 +321,52 @@
     </footer>
     <script src="./dist/carousel.js"></script>
     <script src="./dist/header.js"></script>
+    <script type="module">
+      import PhotoSwipeLightbox from "/node_modules/photoswipe/dist/photoswipe-lightbox.esm.js";
+
+      // helper
+      function getImageSize(src) {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = () =>
+            resolve({ w: img.naturalWidth, h: img.naturalHeight });
+          img.onerror = reject;
+          img.src = src;
+        });
+      }
+
+      async function prepareAndInit() {
+        const anchors = Array.from(document.querySelectorAll("#my-gallery a"));
+
+        // untuk setiap anchor: kalau belum punya data-pswp-width/height, ambil ukurannya
+        const tasks = anchors.map(async (a) => {
+          if (!a.dataset.pswpWidth || !a.dataset.pswpHeight) {
+            // pastikan src yang dipakai adalah href (bukan src img thumb)
+            const src = a.getAttribute("href");
+            try {
+              const { w, h } = await getImageSize(src);
+              a.setAttribute("data-pswp-width", w);
+              a.setAttribute("data-pswp-height", h);
+            } catch (err) {
+              // jika gagal, bisa set fallback ukuran (mis. 1200x800) atau abaikan
+              console.warn("Gagal load", src, err);
+            }
+          }
+        });
+
+        await Promise.all(tasks);
+
+        const lightbox = new PhotoSwipeLightbox({
+          gallery: "#my-gallery",
+          children: "a",
+          pswpModule: () =>
+            import("/node_modules/photoswipe/dist/photoswipe.esm.js"),
+        });
+
+        lightbox.init();
+      }
+
+      prepareAndInit();
+    </script>
   </body>
 </html>

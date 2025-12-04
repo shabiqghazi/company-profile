@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "photoswipe": "^5.4.4",
     "tailwindcss": "^3.3.6"
   }
 }
